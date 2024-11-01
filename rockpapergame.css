@@ -1,0 +1,37 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-image: url(rpsbg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+button {
+  margin: 8px;
+  padding: 5px;
+  font-size: medium;
+  color: wheat;
+  margin-top: 15px;
+  background-color: black;
+  height: 40px;
+  width: 100px;
+}
+button:hover {
+  cursor: pointer;
+  transform: scale(1);
+}
+H1 {
+  font-size: 58px;
+  margin: 30px;
+}
+.box1 {
+  margin: 15px;
+}
+#choicedetails,
+#result {
+  font-size: 40px;
+}

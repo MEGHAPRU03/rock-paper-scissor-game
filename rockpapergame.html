@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ROCK PAPER SCISSOR GAME</title>
+  <link rel="STYLESHEET" href="rockpapergame.css">
+</head>
+
+<body>
+  <h1>ROCK PAPER SCISSOR GAME</h1>
+  <br>
+  <div class="box1">
+    <!-- ROCK -->
+    <button onclick=" 
+    let computerchoice = random1();
+     let result1 = game(computerchoice,'ROCK');
+ showoutput('ROCK',computerchoice,result1);
+     ">ROCK</button>
+
+
+    <!-- PAPER -->
+    <button onclick="
+      computerchoice = random1();
+    result1 = game(computerchoice,'PAPER');
+  showoutput('PAPER',computerchoice,result1);
+   ">PAPER</button>
+
+
+
+
+    <!-- SCISSOR -->
+    <button onclick=" 
+    computerchoice = random1();
+    result1 = game(computerchoice,'SCISSOR');
+ showoutput('SCISSOR',computerchoice,result1);
+"> SCISSOR</button>
+    <br>
+    <button onclick=" location.reload(); ">RESTART</button>
+    <p id="choicedetails"></p>
+    <p id="result"></p>
+  </div>
+  <script src="rockpapergame.js"></script>
+</body>
+
+</html>
